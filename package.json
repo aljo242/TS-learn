@@ -23,7 +23,7 @@
     "url": "https://github.com/aljo242/TS-learn/issues"
   },
   "homepage": "https://github.com/aljo242/TS-learn#readme",
-    "devDependencies": {
+  "devDependencies": {
     "lite-server": "^2.6.1"
   }
 }
