@@ -64,6 +64,6 @@ for (const hobby of person2.hobbies) {
     // console.log(hobby.map()) WILL BE AN ERROR!!!!
 }
 
-if (person2.roleEnum == Role.ADMIN) {
+if (person2.roleEnum === Role.ADMIN) {
     console.log("IS AN ADMIN")
 }

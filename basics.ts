@@ -42,3 +42,4 @@ add(number1, number2, printRes);
 checkStr(str)
 console.log("trying again with wrong string...")
 checkStr("s")
+
