@@ -1,0 +1,29 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "description": "learning typescript with example project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aljo242/TS-learn.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "html",
+    "web"
+  ],
+  "author": "cozart shmoopler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aljo242/TS-learn/issues"
+  },
+  "homepage": "https://github.com/aljo242/TS-learn#readme",
+    "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
