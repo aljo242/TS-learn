@@ -8,6 +8,8 @@
 // "tsc" which will compile all *.ts files into their corresponding *.js
 // again we can do "tsc -w" but this is now for all files
 
+let logged;
+
 const userName = "Alex";
 
 console.log(userName);
@@ -15,6 +17,8 @@ console.log(userName);
 const button = document.querySelector("button")!; // find the first button
 button.addEventListener("click", () => {
     console.log("clicked!");
+    logged = true;
+    console.log(logged);
 });
 
 // since we chose to compile to ES2020, we have a bunch of feature globally available
